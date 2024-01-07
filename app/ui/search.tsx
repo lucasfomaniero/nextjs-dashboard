@@ -27,7 +27,7 @@ export default function Search({ placeholder }: { placeholder: string }) {
 
     handleSearch(searchText)
    
-  }, [searchText, searchParams])
+  }, [searchText, searchParams, pathname, replace])
 
   return (
     <div className="relative flex flex-1 flex-shrink-0">
